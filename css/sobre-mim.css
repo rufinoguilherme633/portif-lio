@@ -1,0 +1,32 @@
+.sobre-mim{
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "title title" 
+    "description skills";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+}
+
+.section-title {
+    grid-area: title ;
+    background-color:aquamarine ;
+    font-size: 220px;
+    text-align: center;
+    /* fazendo degradê */
+    background-image: linear-gradient(#666,#000);
+    /* queero que a cor se modifique na area doo texto */
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+.description{
+    grid-area: description;
+    background-color:tomato ;
+}
+.skills{
+    grid-area: skills;
+    background-color: plum;
+}
