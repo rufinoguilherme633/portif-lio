@@ -1,0 +1,50 @@
+.projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: space-between;
+
+}
+.card-container {
+max-width: 1200px;
+width: 100%;
+/* background-color: tomato; */
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 48px;
+
+}
+
+.card {
+    display: block;
+position: relative;
+/* tudo que passar dele nao vai aftar */
+overflow: hidden;
+
+
+}
+.card::before {
+content: "Click aqui para ver o projeto";
+background-color: #0005;
+width: 100%;
+height: 100%;
+/* quero um em cima do outro */
+position: absolute;
+display: grid;
+place-content: center;
+font-weight: 700;
+
+/* animação para suber */
+transform: translateY(100%);
+transition: transform .5s;
+}
+
+/*  quando alfhuem mexer no before */
+
+.card:hover::before{
+    transform: translateY(0%);
+}

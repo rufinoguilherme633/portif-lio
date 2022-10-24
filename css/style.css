@@ -24,8 +24,7 @@ header{
     /*  */
     width: 100%;
     
-    background-color: #0055;
-    /* mechwndono eixo z para ficar por cima*/
+        /* mechwndono eixo z para ficar por cima*/
     z-index: 666;
     /* tamanho maximo */
     max-width: 1200px;
@@ -41,6 +40,20 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+.voltar {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+
+.voltar:hover {
+    color: var(--primary-color);
+}
 section{
     height: 100vh;
    
@@ -55,20 +68,20 @@ section{
 }
 
 
-.projetos {
-    background-color: lime;
 
-}
-.contato {
 
-    background-color: lightgreen;
-}
 
 footer {
-    height: 100px;
+   
     width: 100%;
+    height: 50px;
     grid-area: content;
     place-self: end center;
-    background-color: #0005;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #fff;
+    font-size: .75rem;
+    
+   
 
 }
