@@ -39,3 +39,13 @@
     font-size: 4rem;
     color: var(--primary-color);
 }
+
+
+@media (max-width:960px) {
+
+
+}
+
+@media (max-width:640px) {
+    
+}
