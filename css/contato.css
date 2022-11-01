@@ -1,4 +1,5 @@
 .contato {
+    
     width: 100%;
     max-width: 1200px;
     display: grid;
@@ -10,10 +11,23 @@
     align-items: center;
   }
   
+  .description{
+       
+    grid-area: description;
+    display: flex;
+
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+   
+}
+  
   .contato-container {
       grid-area: contatos;
       display: flex;
       flex-direction: column;
+      
       gap: 16px;
   }
   

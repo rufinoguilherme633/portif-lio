@@ -1,10 +1,10 @@
 @media (max-width:640px) {
 
-    header{
+    /* header{ */
         /* grid-area: content; */
     
         /*  */
-        width: 100%;
+        /* width: 100%; */
         
             /* mechwndono eixo z para ficar por cima*/
         /* z-index: 666; */
@@ -14,21 +14,26 @@
         /* display: flex;
         justify-content: space-between;
         align-items: center; */
-        background-color: lawngreen;
+        /* background-color: lawngreen;
         width: auto;
-        display: flex;
-                }
+       
+                } */
 
     .menu{
         display: none;
     
+    }
+    .menu-item{
+        display: block;
+        width: 100px;
+        font-size: 40px;
+        
     }
     
 
 .profile {
     /* max-width: 640px; */
     display: flex;
-    background-color: lawngreen;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -49,6 +54,50 @@
     height: fit-content;
 
     }
+    .section-title{
+        grid-area: title;
+        font-size: 130px;
+    }
+
+    .description{
+       
+        grid-area: description;
+        display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+    height: 100%;
+    width: 450px;
+       
+    }
+    .skills{
+        
+        grid-area: skills;
+        width: 100%;  
+        /* background-color: blue;    */
+        display: flex;
+        align-items: center;   
+        justify-content: space-between; 
+       
+        
+                   
+         
+        
+    }
+    .skills__icons {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;   
+        justify-content: space-between; 
+        /* background-color: lawngreen; */
+        width: 100%;
+        /* gap: 5px; */
+           }
     
 
     .section-title{
@@ -62,17 +111,96 @@
     .description__title {
         font-size: 32px;
         display: flex;
-        background-color: lawngreen;
+        /* background-color: lawngreen; */
         align-items: center;
         justify-content: center;
 
     }
     .description__text {
         font-size: 15px;
-        background-color: lawngreen;
+        /* background-color: lawngreen; */
                
     }
-         
-        
+    .projetos {
+        /* align-items: center;
+        justify-content: center; */
+        flex-direction: column;
+        height: fit-content;
     
-}
+    }
+    .card-container {
+      
+        width: 100%;
+        /* background-color: tomato; */
+        /* display: flex; */
+        /* align-items: center; */
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* gap: 48px; */
+        flex-direction: column;
+        /* background-color: salmon; */
+        
+        
+        
+        }
+        .card {
+            /* background-color: red; */
+
+        
+        }
+        .card-container img {
+            width: 500px;
+        } 
+
+        .contato {
+            width: 100%;
+            /* max-width: 960px; */
+            display: grid;
+            grid-template-areas: 
+            "title  title"
+            "contatos  links"
+            "social social";
+            grid-template-columns: auto;
+            height: fit-content;
+            justify-content: space-between;
+            
+            /* align-items: center; */
+           
+            gap: 100px;
+           
+          }
+        
+          .section__title {
+              font-size: 110px;
+          }
+          .contato {
+            width: 100%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-areas: 
+            "title"
+            "contatos"
+            "social"
+            "links";
+            /* grid-template-rows: auto 1fr; */
+            grid-template-columns: auto;
+            justify-content: space-between;
+            flex-direction: column;
+
+            align-items: center;
+            gap: 32px;
+        
+          }
+                .links-container {
+                    background-color: blue;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 200px;
+            }
+            
+
+
+        }
+        
+        

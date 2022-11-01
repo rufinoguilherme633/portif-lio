@@ -1,4 +1,7 @@
 @media (max-width:960px) {
+    header {
+        
+    }
     .profile {
         align-items: center;
         justify-content: center;
@@ -6,6 +9,15 @@
         
     
     }
+    .menu{
+        display: none;
+    }
+    .menu-item{
+        display: block;
+        width: 100px;
+        font-size: 40px;
+    }
+    
     .profile__nome {
         display: flex;
         
@@ -68,7 +80,7 @@
             gap: 150px;
             align-items: center;   
             justify-content: space-around; 
-            background-color: lawngreen;
+            /* background-color: lawngreen; */
             width: 100%;
 
         }
@@ -90,13 +102,13 @@
             /* justify-content: space-between; */
             /* gap: 48px; */
             flex-direction: column;
-            background-color: salmon;
+            /* background-color: salmon; */
             
             
             
             }
             .card {
-                background-color: red;
+                /* background-color: red; */
 
             
             }
@@ -133,17 +145,17 @@
             .contato-item {
                 display: flex;
                 width: 300px;
-                background-color: lavender;
+                /* background-color: lavender; */
                 gap: 20px;
             }
             .links-container {
                 display: flex;
-                background-color: lavender;
+                /* background-color: lavender; */
                 width: 300px;
                 gap: 20px;
                 
             }
     
     }
+
     
-  
