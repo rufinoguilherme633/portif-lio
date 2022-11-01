@@ -1,0 +1,78 @@
+@media (max-width:640px) {
+
+    header{
+        /* grid-area: content; */
+    
+        /*  */
+        width: 100%;
+        
+            /* mechwndono eixo z para ficar por cima*/
+        /* z-index: 666; */
+        /* tamanho maximo */
+        /* max-width: 640px;
+        margin-top: 48px; */
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        background-color: lawngreen;
+        width: auto;
+        display: flex;
+                }
+
+    .menu{
+        display: none;
+    
+    }
+    
+
+.profile {
+    /* max-width: 640px; */
+    display: flex;
+    background-color: lawngreen;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+
+    
+}
+.sobre-mim{
+    /* max-width: 960px; */
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "title"
+        "description"
+        "skills";
+    grid-template-columns: auto;
+    height: fit-content;
+
+    }
+    
+
+    .section-title{
+        grid-area: title;
+        font-size: 110px;
+    }
+    .description{
+        grid-area: description;
+    }
+
+    .description__title {
+        font-size: 32px;
+        display: flex;
+        background-color: lawngreen;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .description__text {
+        font-size: 15px;
+        background-color: lawngreen;
+               
+    }
+         
+        
+    
+}

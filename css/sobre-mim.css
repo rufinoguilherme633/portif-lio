@@ -12,6 +12,7 @@
 }
 
 .section-title{
+    
     grid-area: title;
     font-size: 220px;
     text-align: center;
@@ -77,5 +78,16 @@
 
 .skills__icon span {
     font-size: 1rem;
+
+}
+
+@media (max-width:960px) {
+.profile {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
 
 }

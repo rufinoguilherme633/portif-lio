@@ -1,0 +1,149 @@
+@media (max-width:960px) {
+    .profile {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    
+    }
+    .profile__nome {
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .profile__text {
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sobre-mim{
+        /* max-width: 960px; */
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+            "title"
+            "description"
+            "skills";
+        grid-template-columns: auto;
+        height: fit-content;
+    
+        }
+        
+    
+        .section-title{
+            grid-area: title;
+            font-size: 140px;
+        }
+    
+        .description{
+           
+            grid-area: description;
+            display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+           
+        }
+        .skills{
+            
+            grid-area: skills;
+            width: 100%;  
+            /* background-color: blue;    */
+            align-items: center;   
+            /* justify-content: space-between;  */
+                       
+             
+            
+        }
+        .skills__icons {
+            /* background-color: red; */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 150px;
+            align-items: center;   
+            justify-content: space-around; 
+            background-color: lawngreen;
+            width: 100%;
+
+        }
+
+        .projetos {
+            /* align-items: center;
+            justify-content: center; */
+            flex-direction: column;
+            height: fit-content;
+        
+        }
+        .card-container {
+          
+            width: 100%;
+            /* background-color: tomato; */
+            /* display: flex; */
+            /* align-items: center; */
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+            /* gap: 48px; */
+            flex-direction: column;
+            background-color: salmon;
+            
+            
+            
+            }
+            .card {
+                background-color: red;
+
+            
+            }
+            .card-container img {
+                width: 800px;
+            } 
+
+            .contato {
+                width: 100%;
+                /* max-width: 960px; */
+                display: grid;
+                grid-template-areas: 
+                "title  title"
+                "contatos  links"
+                "social social";
+                grid-template-columns: auto;
+                height: fit-content;
+                justify-content: space-between;
+                /* align-items: center; */
+               
+                gap: 100px;
+               
+              }
+              .social-container {
+                /* grid-area: social;
+                display: flex;
+                gap: 32px;
+                font-size: 1.5rem; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 200px;
+            }
+            .contato-item {
+                display: flex;
+                width: 300px;
+                background-color: lavender;
+                gap: 20px;
+            }
+            .links-container {
+                display: flex;
+                background-color: lavender;
+                width: 300px;
+                gap: 20px;
+                
+            }
+    
+    }
+    
+  
